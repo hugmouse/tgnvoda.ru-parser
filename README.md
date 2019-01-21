@@ -14,7 +14,11 @@
     }
 ]
 ```
-
+# Installing
+```sh
+$ git clone https://github.com/hugmouse/tgnvoda.ru-parser.git && cd tgnvoda.ru-parser
+$ php parser.php # Создаст файл `voda.json`. 
+```
 # Todo
 
 * ~~Сделать парсинг улиц с помощью заранее заготовленного списка всех улиц города. (`streets.txt`)~~
